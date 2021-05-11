@@ -1,0 +1,22 @@
+param dist_gas_cost := 3500;
+
+param: ORIG: supply :=
+Raduga 		7
+Artezan 	7
+AleBrowar 	7
+DoctorBrew 	7
+SzalPiw 	7 ;
+
+param: DEST: demand :=
+Moszna 10
+Piaseczno 12
+Wiazowna 8 ;
+
+param dist:
+			Moszna		Piaseczno	Wiazowna :=
+Raduga		2.805574	0.175079	0.245752
+Artezan		2.330851	0.378284	0.670955
+AleBrowar	3.882207	2.280508	2.733991
+DoctorBrew	0.441582	3.807448	4.059268
+SzalPiw		1.647658	3.985711	4.259579 ;
+
