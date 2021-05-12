@@ -1,16 +1,21 @@
-param dist_gas_cost := 3500;
+param dist_gas_cost := 500;
 
 param: ORIG: supply :=
-Raduga 		7
-Artezan 	7
-AleBrowar 	7
-DoctorBrew 	7
+Raduga 		5
+Artezan 	4
+AleBrowar 	6
+DoctorBrew 	8
 SzalPiw 	7 ;
 
 param: DEST: demand :=
-Moszna 10
-Piaseczno 12
-Wiazowna 8 ;
+Moszna 		2
+Piaseczno 	11
+Wiazowna 	8 ;
+
+param: capacity :=
+Moszna 		10
+Piaseczno 	12
+Wiazowna 	8 ;
 
 param dist:
 			Moszna		Piaseczno	Wiazowna :=
